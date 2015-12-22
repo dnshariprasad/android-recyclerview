@@ -1,29 +1,11 @@
 # RecyclerView #
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+### Steps ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* Add RecyclerView support library to the gradle build file. 
+* Define a model class to use as the data source.
+* Add a RecyclerView to your activity to display the items.
+* Create a custom row layout XML file to visualize the item.
+* Create a RecyclerView.Adapter and ViewHolder to render the item.
+* Bind the adapter to the data source to populate the RecyclerView.
